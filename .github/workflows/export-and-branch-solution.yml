@@ -19,7 +19,7 @@ jobs:
     - name: who-am-i action
       uses: microsoft/powerplatform-actions/who-am-i@v0
       with:
-        environment-url: 'orgcccba1c4.crm4.dynamics.com'
+        environment-url: 'https://orgcccba1c4.crm4.dynamics.com'
         user-name: adelev@totim.tech
         password-secret: ${{ secrets.password }}
 
