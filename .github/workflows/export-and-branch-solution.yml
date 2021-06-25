@@ -20,7 +20,7 @@ jobs:
       uses: microsoft/powerplatform-actions/who-am-i@v0
       with:
         environment-url: 'https://org5e003c0d.crm4.dynamics.com/'
-        user-name: ${{ secrets.user }}
+        user-name: adelev@totim.tech
         password-secret: ${{ secrets.password }}
 
     - name: export-solution action
