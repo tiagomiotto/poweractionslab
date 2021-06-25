@@ -72,8 +72,8 @@ jobs:
     - name: Import solution to prod env
       uses: microsoft/powerplatform-actions/import-solution@v0
       with:
-        environment-url: '<PRODUCTIONENVIRONMENTURL>'
-        user-name: '<USERNAME>'
+        environment-url: 'https://org5771f491.crm4.dynamics.com/'
+        user-name: ${{ secrets.user }}
         password-secret: ${{ secrets.password }}
         solution-file: out/release/ALMLab.zip
         force-overwrite: true
