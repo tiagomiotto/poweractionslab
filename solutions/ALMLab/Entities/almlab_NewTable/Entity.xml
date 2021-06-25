@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name LocalizedName="Time Off Requests" OriginalName="Time Off Requests">almlab_TimeOffRequests</Name>
+  <Name LocalizedName="NewTable" OriginalName="NewTable">almlab_NewTable</Name>
   <EntityInfo>
-    <entity Name="almlab_TimeOffRequests">
+    <entity Name="almlab_NewTable">
       <LocalizedNames>
-        <LocalizedName description="Time Off Requests" languagecode="1033" />
+        <LocalizedName description="NewTable" languagecode="1033" />
       </LocalizedNames>
       <LocalizedCollectionNames>
-        <LocalizedCollectionName description="Time Off Requests" languagecode="1033" />
+        <LocalizedCollectionName description="NewTables" languagecode="1033" />
       </LocalizedCollectionNames>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -53,10 +53,10 @@
             <Description description="Required name field" languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="almlab_TimeOffRequestsId">
+        <attribute PhysicalName="almlab_NewTableId">
           <Type>primarykey</Type>
-          <Name>almlab_timeoffrequestsid</Name>
-          <LogicalName>almlab_timeoffrequestsid</LogicalName>
+          <Name>almlab_newtableid</Name>
+          <LogicalName>almlab_newtableid</LogicalName>
           <RequiredLevel>systemrequired</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|RequiredForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -84,7 +84,7 @@
           <IsRetrievable>1</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
           <displaynames>
-            <displayname description="Time Off Requests" languagecode="1033" />
+            <displayname description="NewTable" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="Unique identifier for entity instances" languagecode="1033" />
@@ -594,7 +594,7 @@
           <IsFilterable>1</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <optionset Name="almlab_timeoffrequests_statecode">
+          <optionset Name="almlab_newtable_statecode">
             <OptionSetType>state</OptionSetType>
             <IntroducedVersion>1.0</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
@@ -602,7 +602,7 @@
               <displayname description="Status" languagecode="1033" />
             </displaynames>
             <Descriptions>
-              <Description description="Status of the Time Off Requests" languagecode="1033" />
+              <Description description="Status of the NewTable" languagecode="1033" />
             </Descriptions>
             <states>
               <state value="0" defaultstatus="1" invariantname="Active">
@@ -621,7 +621,7 @@
             <displayname description="Status" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="Status of the Time Off Requests" languagecode="1033" />
+            <Description description="Status of the NewTable" languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="statuscode">
@@ -654,7 +654,7 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <optionset Name="almlab_timeoffrequests_statuscode">
+          <optionset Name="almlab_newtable_statuscode">
             <OptionSetType>status</OptionSetType>
             <IntroducedVersion>1.0</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
@@ -662,7 +662,7 @@
               <displayname description="Status Reason" languagecode="1033" />
             </displaynames>
             <Descriptions>
-              <Description description="Reason for the status of the Time Off Requests" languagecode="1033" />
+              <Description description="Reason for the status of the NewTable" languagecode="1033" />
             </Descriptions>
             <statuses>
               <status value="1" state="0">
@@ -681,7 +681,7 @@
             <displayname description="Status Reason" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="Reason for the status of the Time Off Requests" languagecode="1033" />
+            <Description description="Reason for the status of the NewTable" languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="TimeZoneRuleVersionNumber">
@@ -763,7 +763,7 @@
           </Descriptions>
         </attribute>
       </attributes>
-      <EntitySetName>almlab_timeoffrequestses</EntitySetName>
+      <EntitySetName>almlab_newtables</EntitySetName>
       <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
       <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
       <IsRequiredOffline>0</IsRequiredOffline>
